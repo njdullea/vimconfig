@@ -1,5 +1,5 @@
 set nocompatible	" only use vim, not vi
-filetype off		" turns filetype on after plugins have run?
+filetype off		" required
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
@@ -11,6 +11,17 @@ call plug#end()
 
 colorscheme gruvbox
 map <silent> <C-n> :NERDTreeFocus<CR>
-" set number
 
-
+filetype plugin indent on	" required
+syntax on
+set colorcolumn=80
+set background=dark
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+set number
+set nowrap
+set smartcase
+set hlsearch
+set noerrorbells
+set tabstop=4 softtabstop=4
+set expandtab
+set smartindent

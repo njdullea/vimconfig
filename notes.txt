@@ -1,0 +1,12 @@
+Nerdtree:
+- m for management (add nodes, remove them, etc
+- ctrl n to open
+
+NVIM:
+- :command
+- q to quit stuff
+
+Fuzzy Finder: 
+- ctrl p to open
+- ctrl c to close
+
