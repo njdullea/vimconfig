@@ -12,6 +12,11 @@ call plug#end()
 colorscheme gruvbox
 map <silent> <C-n> :NERDTreeFocus<CR>
 
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 filetype plugin indent on	" required
 syntax on
 set colorcolumn=80
